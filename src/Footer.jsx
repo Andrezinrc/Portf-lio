@@ -43,7 +43,7 @@ function Footer() {
 
       {/* Rodapé final */}
       <div className="footer-copy">
-        <p>&copy; 2025 Desenvolvido por <span>Andrecode.</span></p>
+        <p>&copy; 2025 <span>Andrecode.</span></p>
       </div>
     </footer>
   );

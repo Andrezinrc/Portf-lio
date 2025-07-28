@@ -2,7 +2,6 @@
   background-color: #1B1B1B;
   width: 100%;
   position: relative;
-  top: 80px;
   padding: 120px 50px 20px 50px;
   display: flex;
   justify-content: center;
@@ -30,7 +29,7 @@
 }
 
 .footer-info .email {
-  color: #f1f1f1;
+  color: #fff;
 }
 .footer-info a {
   color: #fff;
@@ -38,14 +37,14 @@
 }
 
 .footer small {
-  color: #00BFFF;
+  color: #ccc;
 }
 
 .footer-menu h2,
 .footer-social h2 {
   font-size: 18px;
   margin-bottom: 10px;
-  color: #eee;
+  color: #fff;
 }
 
 .footer-menu ul,
@@ -77,16 +76,9 @@
   font-size: 14px;
   color: #eee;
 }
-
-.footer-copy span {
-  color: #00BFFF;
-}
-
 /* Responsivo: Mobile */
 @media screen and (max-width: 768px) {
   .footer {
-    top: 70px;
     padding: 80px 20px 20px 20px;
   }
 }
-
