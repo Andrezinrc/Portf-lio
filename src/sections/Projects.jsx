@@ -15,7 +15,7 @@ function Projects() {
 
         {/* Projeto 1 - Huffman */}
         <div className="project-card">
-          <img src="../public/assets/images/huffman.jpeg" alt="Projeto Huffman" loading="lazy" />
+          <img src="/assets/images/huffman.jpeg" alt="Projeto Huffman" loading="lazy" />
           <div className="project-info">
             <div>
               <h2 className="card-title">Compactador Huffman</h2>
@@ -37,7 +37,7 @@ function Projects() {
 
         {/* Projeto 2 - TCP Chat */}
         <div className="project-card">
-          <img src="../public/assets/images/chat.jpeg" alt="Projeto TCP Chat" loading="lazy" />
+          <img src="/assets/images/chat.jpeg" alt="Projeto TCP Chat" loading="lazy" />
           <div className="project-info">
             <div>
               <h2 className="card-title">TCP Chat Seguro</h2>
@@ -59,7 +59,7 @@ function Projects() {
 
         { /* Projeto 3 - Task API */ }
         <div className="project-card">
-          <img src="../public/assets/images/task-api.jpeg" alt="Projeto Task API" loading="lazy" />
+          <img src="/assets/images/task-api.jpeg" alt="Projeto Task API" loading="lazy" />
           <div className="project-info">
             <div>
               <h2 className="card-title">Task API</h2>
@@ -81,7 +81,7 @@ function Projects() {
 
         { /* Projeto 4 - URL Shortener API */ }
         <div className="project-card">
-          <img src="../public/assets/images/url-shortener-api.jpeg" alt="Projeto URL Shortener API" loading="lazy" />
+          <img src="/assets/images/url-shortener-api.jpeg" alt="Projeto URL Shortener API" loading="lazy" />
           <div className="project-info">
             <div>
               <h2 className="card-title">URL Shortener API</h2>
