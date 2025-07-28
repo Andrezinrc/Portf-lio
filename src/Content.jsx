@@ -3,6 +3,7 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import Certificates from './sections/Certificates';
+import Projects from './sections/Projects';
 
 function Content(){
   return (
@@ -19,6 +20,9 @@ function Content(){
 
       { /* Seção Certificados */ }
       <Certificates />
+
+      { /* Seção Projetos */ }
+      <Projects />
     </main>
   );
 }
