@@ -32,7 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
   z-index: 50;
 }
 
@@ -64,5 +64,5 @@
 }
 
 @media screen and (max-width: 400px){
-
+  
 }

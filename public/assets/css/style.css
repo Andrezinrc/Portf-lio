@@ -49,19 +49,19 @@ body {
 }
 
 .success {
-  color: #81c784;
+  color: #4CAF50 !important;
 }
 
 .error {
-  color: #e57373;
+  color: #F44336 !important;
 }
 
 .input-valid {
-  border: 2px solid #81c784 !important;
+  border: 2px solid #4CAF50 !important;
 }
 
 .input-invalid {
-  border: 2px solid #e57373 !important;
+  border: 2px solid #F44336 !important;
 }
 
 .form button {
@@ -74,13 +74,15 @@ body {
   font-size: 16px;
   font-family: 'Inter', sans-serif;
 }
+
 .form button:hover {
   background-color: #000000;
 }
 
-.form input::placeholder {
-  color: #ccc;
+.form button:disabled {
+  background-color: #aaa;
 }
+
 .button-content {
   display: flex;
   justify-content: center;
