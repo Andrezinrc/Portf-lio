@@ -4,7 +4,7 @@ import About from './sections/About';
 import Skills from './sections/Skills';
 import Certificates from './sections/Certificates';
 import Projects from './sections/Projects';
-import Contact fromn'./sections/Contact';
+import Contact from './sections/Contact';
 
 function Content(){
   return (
