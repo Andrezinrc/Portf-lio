@@ -4,6 +4,7 @@ import About from './sections/About';
 import Skills from './sections/Skills';
 import Certificates from './sections/Certificates';
 import Projects from './sections/Projects';
+import Contact fromn'./sections/Contact';
 
 function Content(){
   return (
@@ -23,6 +24,9 @@ function Content(){
 
       { /* Seção Projetos */ }
       <Projects />
+
+      { /* Seção Contato */ }
+      <Contact />
     </main>
   );
 }
