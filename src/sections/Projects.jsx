@@ -6,13 +6,13 @@ function Projects() {
       <div className="projects-title">
         <h1>Projetos<span>.</span></h1>
       </div>
-
+    
       <p className="projects-description">
-        Mesmo com foco atual em desenvolvimento web, aqui estão dois projetos desenvolvidos em C puro, com desafios reais envolvendo redes, algoritmos e manipulação de arquivos.
+        Apesar do foco em desenvolvimento web, também criei projetos em C, envolvendo desafios de redes, algoritmos e manipulação de arquivos.
       </p>
-
+    
       <div className="project-wrapper">
-
+    
         {/* Projeto 1 - Huffman */}
         <div className="project-card">
           <img src="/assets/images/huffman.jpeg" alt="Projeto Huffman" loading="lazy" />
@@ -20,21 +20,25 @@ function Projects() {
             <div>
               <h2 className="card-title">Compactador Huffman</h2>
             </div>
-
+            
             <div>
               <p>
-                Algoritmo completo de compressão e descompressão de arquivos em C. Utiliza estrutura de árvore binária e codificação de Huffman para otimizar espaço de armazenamento.
+                Implementação do algoritmo de compressão e descompressão de arquivos com codificação Huffman, visando otimizar o espaço de armazenamento.
               </p>
             </div>
-
+            
+            <div className="tech">
+              <span>C</span>
+            </div>
+            
             <div>
-              <a href="https://github.com/AndreDev/huffman" target="_blank" className="project-button">
+              <a href="https://github.com/Andrezinrc/huffman" target="_blank" className="project-button">
                 Ver no GitHub
               </a>
             </div>
           </div>
         </div>
-
+    
         {/* Projeto 2 - TCP Chat */}
         <div className="project-card">
           <img src="/assets/images/chat.jpeg" alt="Projeto TCP Chat" loading="lazy" />
@@ -42,21 +46,25 @@ function Projects() {
             <div>
               <h2 className="card-title">TCP Chat Seguro</h2>
             </div>
-
+            
             <div>
               <p>
-                Sistema de chat com cliente e servidor TCP, escrito em C, com criptografia própria para proteger as mensagens em tempo real. Ideal para aprender redes e segurança.
+                Sistema de chat com comunicação segura via TCP e criptografia própria, ideal para aprender sobre redes e segurança.
               </p>
             </div>
-
+            
+            <div className="tech">
+              <span>C</span>
+            </div>
+            
             <div>
-              <a href="https://github.com/AndreDev/tcp_secure_chat" target="_blank" className="project-button">
+              <a href="https://github.com/Andrezinrc/tcp_secure_chat" target="_blank" className="project-button">
                 Ver no GitHub
               </a>
             </div>
           </div>
         </div>
-
+        
         { /* Projeto 3 - Task API */ }
         <div className="project-card">
           <img src="/assets/images/task-api.jpeg" alt="Projeto Task API" loading="lazy" />
@@ -64,13 +72,19 @@ function Projects() {
             <div>
               <h2 className="card-title">Task API</h2>
             </div>
-
+        
             <div>
               <p>
-                API RESTful para gerenciamento de tarefas, construída com Node.js, Express e Mongoose. Permite operações CRUD, autenticação de usuários e segue boas práticas de organização.
+                API RESTful para gerenciamento de tarefas, com autenticação de usuários e operações CRUD, seguindo boas práticas de organização.
               </p>
             </div>
-
+            
+            <div className="tech">
+              <span>Nodejs</span>
+              <span>Express</span>
+              <span>Mongoose</span>
+            </div>
+        
             <div>
               <a href="https://github.com/Andrezinrc/task-api" target="_blank" className="project-button">
                 Ver no GitHub
@@ -78,7 +92,7 @@ function Projects() {
             </div>
           </div>
         </div>
-
+        
         { /* Projeto 4 - URL Shortener API */ }
         <div className="project-card">
           <img src="/assets/images/url-shortener-api.jpeg" alt="Projeto URL Shortener API" loading="lazy" />
@@ -86,13 +100,19 @@ function Projects() {
             <div>
               <h2 className="card-title">URL Shortener API</h2>
             </div>
-
+        
             <div>
               <p>
-                API simples para encurtamento de URLs, desenvolvida com Node.js, Express e Mongoose. Gera códigos curtos únicos e redireciona para o link original, destacando lógica fora do tradicional CRUD.
+                API para encurtamento de URLs, criando códigos curtos únicos e redirecionando para os links originais, com lógica diferente de um CRUD tradicional.
               </p>
             </div>
-
+        
+            <div className="tech">
+              <span>Nodejs</span>
+              <span>Express</span>
+              <span>Mongoose</span>
+            </div>
+            
             <div>
               <a href="https://github.com/Andrezinrc/url-shortener-api" target="_blank" className="project-button">
                 Ver no GitHub
@@ -101,11 +121,11 @@ function Projects() {
           </div>
         </div>
       </div>
-
+      
       <p className="projects-description">
         Esses são apenas os primeiros passos. Se quiser conversar sobre tecnologia ou possíveis parcerias, fique à vontade para me chamar.
       </p>
-
+    
     </section>
   );
 };
