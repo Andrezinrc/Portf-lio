@@ -1,19 +1,21 @@
 .footer {
-  background-color: #1B1B1B;
+  background-color: #111111;
   width: 100%;
   position: relative;
-  padding: 120px 50px 20px 50px;
+  padding: 100px 50px 30px 50px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
+  border-top: 1px solid #333333;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 30px;
+  gap: 40px;
 }
 
 .footer-info,
@@ -22,29 +24,37 @@
   flex: 1 1 250px;
   min-width: 200px;
 }
+
 .footer-info {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .footer-info .email {
-  color: #fff;
+  color: #DDDDDD;
+  font-size: 0.95rem;
 }
+
 .footer-info a {
-  color: #fff;
-  font-size: 16px;
+  color: #AAAAAA;
+  font-size: 0.95rem;
+  font-weight: 300;
+  transition: color 0.3s;
 }
-
-.footer small {
-  color: #ccc;
+.footer-info a:hover {
+  color: #5D9DF5;
 }
-
+.footer-info small {
+  color: #AAAAAA;
+}
 .footer-menu h2,
 .footer-social h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #fff;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
 }
 
 .footer-menu ul,
@@ -55,30 +65,37 @@
 
 .footer-menu li,
 .footer-social li {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .footer-menu a,
 .footer-social a {
-  color: #eee;
+  color: #AAAAAA;
   text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 300;
   transition: color 0.3s;
-  font-family: 'Inter', sans-serif;
 }
 
 .footer-menu a:hover,
 .footer-social a:hover {
-  color: #00aaff;
+  color: #5D9DF5;
 }
 
 .footer-copy {
-  margin-top: 30px;
-  font-size: 14px;
-  color: #eee;
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #666666;
+  text-align: center;
 }
+
 /* Responsivo: Mobile */
 @media screen and (max-width: 768px) {
   .footer {
-    padding: 80px 20px 20px 20px;
+    padding: 60px 20px 20px 20px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
   }
 }
