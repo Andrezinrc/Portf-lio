@@ -217,11 +217,12 @@
 }
 
 .certificates-description a {
-  color: hsl(205, 100%, 32%);
+  color: #00BFFF;
+  transition: all 0.3s;
 }
 
 .certificates-description a:hover{
-  color: hsl(208, 100%, 32%);
+  color: #0099CC;
 }
 .certificates-container {
   display: flex;
@@ -265,19 +266,20 @@
 
 .certificate-button {
   background-color: transparent;
-  color: hsl(205, 100%, 32%);
-  border: 1px solid hsl(205, 100%, 32%);
+  color: #666666;
+  border: 1px solid #DDDDDD;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
-  font-weight: 400;
+  font-weight: 300;
+  transition: all 0.3s;
   align-self: flex-start;
-  margin-top: 10px;
 }
 
 .certificate-button:hover {
-  background-color: hsl(205, 100%, 32%);
-  color: white;
+  background-color: #F5F5F5;
+  border-color: #AAAAAA;
+  color: #333333;
 }
 
 .projects-section {
@@ -366,19 +368,20 @@
 
 .project-button {
   background-color: transparent;
-  color: hsl(205, 100%, 32%);
-  border: 1px solid hsl(205, 100%, 32%);
+  color: #666666;
+  border: 1px solid #DDDDDD;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
-  font-weight: 400;
+  font-weight: 300;
+  transition: all 0.3s;
   align-self: flex-start;
-  margin-top: 10px;
 }
 
 .project-button:hover {
-  background-color: hsl(205, 100%, 32%);
-  color: white;
+  background-color: #F5F5F5;
+  border-color: #AAAAAA;
+  color: #333333;
 }
 
 .contact-section {
