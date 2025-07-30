@@ -7,20 +7,16 @@ function Certificates() {
         <h1>Certificados<span>.</span></h1>
       </div>
 
-      <div>
-        <p className="certificates-description">
-          Acredito na importância do aprendizado contínuo. Estes certificados representam minha dedicação em dominar os fundamentos do desenvolvimento web e back-end, com foco em práticas modernas e projetos reais.
-        </p>
-      </div>
+      <p className="certificates-description">
+        Acredito na importância do aprendizado contínuo. Estes certificados representam minha dedicação em dominar os fundamentos do desenvolvimento web e back-end, com foco em práticas modernas e projetos reais.
+      </p>
 
       <div className="certificates-container">
         {/* Certificado 1 */}
         <div className="certificate-card">
-          <img src="/assets/images/frecodecamp.jpeg" alt="FreeCodeCamp Logo" className="certificate-logo" loading="lazy" />
-          <p className="certificate-text">
-            Legacy JavaScript Algorithms and Data Structures<br />
-            <strong>300 horas - Dezembro 2022</strong>
-          </p>
+          <img src="/assets/images/freecodecamp.png" alt="FreeCodeCamp Logo" className="certificate-logo" loading="lazy" />
+          <h3>Legacy JavaScript Algorithms and Data Structures</h3>
+          <p>300 horas • Dezembro 2022</p>
           <a
             href="https://freecodecamp.org/certification/AndreDev/javascript-algorithms-and-data-structures"
             target="_blank"
@@ -33,11 +29,9 @@ function Certificates() {
 
         {/* Certificado 2 */}
         <div className="certificate-card">
-          <img src="/assets/images/frecodecamp.jpeg" alt="FreeCodeCamp Logo" className="certificate-logo" loading="lazy" />
-          <p className="certificate-text">
-            Back End Development and<br></br> APIs<br />
-            <strong>300 horas - Setembro 2024</strong>
-          </p>
+          <img src="/assets/images/freecodecamp.png" alt="FreeCodeCamp Logo" className="certificate-logo" loading="lazy" />
+          <h3>Back End Development and APIs</h3>
+          <p>300 horas • Setembro 2024</p>
           <a
             href="https://freecodecamp.org/certification/AndreDev/back-end-development-and-apis"
             target="_blank"
@@ -50,7 +44,7 @@ function Certificates() {
       </div>
 
       <p className="certificates-description">
-        Estude também com a <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer"><strong>freeCodeCamp</strong></a>
+        Estude também com a <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer"><strong>freeCodeCamp</strong></a>.
       </p>
     </section>
   );

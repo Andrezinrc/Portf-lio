@@ -24,34 +24,6 @@ function Hero(){
           </a>
         </div>
       </div>
-      
-      <div style={{
-        position: 'absolute',
-        top: '50%',
-        transform: 'translateY(-50%)',
-        right: '20px',
-        fontWeight: '1000',
-        fontSize: '4.2rem',
-        color: 'rgba(0, 191, 255, 0.1)',
-        userSelect: 'none',
-        pointerEvents: 'none',
-        fontFamily: "'Inter', sans-serif",
-        display: 'flex',
-        flexDirection: 'column-reverse',
-        flexDirection: 'column',
-        alignItems: 'center',
-        lineHeight: '1',
-      }}>
-        <span>A</span>
-        <span>n</span>
-        <span>d</span>
-        <span>r</span>
-        <span>e</span>
-        <span>c</span>
-        <span>o</span>
-        <span>d</span>
-        <span>e</span>
-      </div>
     </div>
   );
 };
