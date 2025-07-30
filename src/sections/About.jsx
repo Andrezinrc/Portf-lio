@@ -6,21 +6,21 @@ function About(){
       <div className="about-title">
         <h1>Sobre Mim<span>.</span></h1>
       </div>
-
+      
       <div>
         <p>
-          Sou <strong>André Moreira</strong>, um desenvolvedor autodidata que iniciou sua jornada no final de 2019, explorando o universo da programação com foco em resolver problemas de forma prática e criativa. No começo, mergulhei em lógicas básicas e pequenos desafios, o que logo despertou meu interesse por criar soluções que pudessem impactar o dia a dia das pessoas.
+          Sou <strong>André Moreira</strong>, desenvolvedor web fullstack com foco em criar aplicações modernas, limpas e funcionais. Iniciei minha jornada em 2020 como autodidata, explorando a programação por meio de pequenos projetos e desafios práticos.
         </p>
       </div>
-
+      
       <div>
         <p>
-          Desde 2020 venho construindo projetos reais com tecnologias web, sempre buscando clareza no código, design minimalista e soluções eficientes que façam sentido no mundo real. Gosto de transformar ideias em aplicações funcionais e de manter o código limpo, legível e escalável, mesmo nos detalhes.
+          Desde 2020, venho desenvolvendo projetos reais com tecnologias como <strong>JavaScript, Node.js, React.js</strong> e bancos de dados <strong>NoSQL</strong>. Tenho como princípios a escrita de código limpo, design minimalista e soluções que resolvem problemas reais. Estou sempre em busca de aprendizado constante e de oportunidades para colaborar em produtos de valor.
         </p>
       </div>
-
+      
       <div className="about-button-container">
-        <a className="about-button" href="#projects">Ver Projetos</a>
+        <a className="about-button" href="#projetos">Ver Projetos</a>
       </div>
     </section>
   );

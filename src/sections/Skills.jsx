@@ -8,12 +8,8 @@ function Skills() {
       </div>
 
       <div>
-        <p className="skills-description">
-          Essas são algumas das tecnologias que utilizo para transformar ideias em soluções funcionais, com código limpo, visual agradável e foco na experiência do usuário.
-        </p>
-
-        <p className="skills-description" style={{ marginTop: '15px' }}>
-          Busco sempre aprimorar minhas habilidades, mantendo-me atualizado com as melhores práticas e tendências modernas do desenvolvimento web.
+        <p className = "skills-description" >
+          Utilizo ferramentas e tecnologias modernas para criar interfaces dinâmicas e sistemas robustos, com foco em performance e usabilidade.
         </p>
       </div>
 
@@ -43,7 +39,7 @@ function Skills() {
       </div>
 
       <p className="skills-description" style={{ marginTop: '15px' }}>
-        Conhecimento sólido é o primeiro passo para grandes conquistas.
+        Busco evoluir constantemente, mantendo-me alinhado às tendências e boas práticas do desenvolvimento web.
       </p>
     </section>
   );

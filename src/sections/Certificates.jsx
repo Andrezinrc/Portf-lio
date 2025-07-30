@@ -44,7 +44,7 @@ function Certificates() {
       </div>
 
       <p className="certificates-description">
-        Estude também com a <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer"><strong>freeCodeCamp</strong></a>.
+        Todos os certificados foram obtidos por meio da <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer"><strong>freeCodeCamp</strong></a>, uma plataforma internacional de ensino em desenvolvimento web.
       </p>
     </section>
   );
