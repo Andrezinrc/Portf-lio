@@ -412,8 +412,8 @@
 .project-card .tech span {
   background-color: #e0e0e0;
   color: #333333;
-  padding: 2px 5px;
-  font-size: 14px;
+  padding: 4px 5px;
+  font-size: 12px;
   border-radius: 20px;
 }
 
@@ -436,7 +436,7 @@
 }
 
 .contact-section {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   width: 100%;
   position: relative;
   padding: 120px 50px;

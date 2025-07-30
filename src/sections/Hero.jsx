@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from './Form.js';
 
 function Hero(){
   return (
@@ -30,15 +31,17 @@ function Hero(){
         top: '50%',
         transform: 'translateY(-50%)',
         right: '20px',
-        fontWeight: '900',
-        fontSize: '3.5rem',
+        fontWeight: '1000',
+        fontSize: '4.2rem',
         color: 'rgba(0, 191, 255, 0.1)',
         userSelect: 'none',
         pointerEvents: 'none',
         fontFamily: "'Inter', sans-serif",
         display: 'flex',
+        flexDirection: 'column-reverse',
         flexDirection: 'column',
         alignItems: 'center',
+        lineHeight: '1',
       }}>
         <span>A</span>
         <span>n</span>
