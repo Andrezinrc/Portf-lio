@@ -152,8 +152,30 @@
 }
 
 .carousel-wrapper {
+  position: relative;
   width: 100%;
   overflow: hidden;
+}
+
+.carousel-wrapper::before,
+.carousel-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.carousel-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, white 0%, transparent 100%);
+}
+
+.carousel-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, white 0%, transparent 100%);
 }
 
 .carousel-track {
@@ -218,13 +240,14 @@
 }
 
 .certificates-description a {
-  color: #00BFFF;
+  color: #888;
   transition: all 0.3s;
 }
 
 .certificates-description a:hover{
-  color: #0099CC;
+  color: #666;
 }
+
 .certificates-container {
   display: flex;
   flex-wrap: wrap;
@@ -495,6 +518,10 @@
 
   .skills-section {
     padding: 120px 20px;
+  }
+  
+  .carousel-track {
+    gap: 20px;
   }
 
   .carousel-track img {
