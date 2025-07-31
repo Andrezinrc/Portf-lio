@@ -5,6 +5,7 @@ function Form({ buttonText }) {
   const [email, setEmail] = useState('');
   const [isValid, setIsValid] = useState(false);
   const [status, setStatus] = useState(null);
+  const [loading, setLoading] = useState(false);
   
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   
@@ -28,15 +29,18 @@ function Form({ buttonText }) {
     if (!isValid) return;
     
     const templateParams = { email };
+    setLoading(true);
     
     emailjs
       .send(SERVICE_ID, TEMPLATE_ID, templateParams)
       .then(() => {
         setStatus('success');
         setEmail('');
+        setLoading(false);
       })
       .catch(() => {
         setStatus('error');
+        setLoading(false);
       });
   }
   
@@ -58,15 +62,19 @@ function Form({ buttonText }) {
         />
       </div>
       <div>
-        <button type="submit" disabled={!isValid}>
-          {buttonText}
+        <button type="submit" disabled={loading || !isValid}>
+          {loading ? 'Enviando...' : buttonText}
         </button>
       </div>
       {status === 'success' && (
-        <p className="success">Mensagem enviada com sucesso. Agradeço pela confiança e entrarei em contato em breve!</p>
+        <p className="success-message">
+          E-mail enviado com sucesso. Agradeço pela confiança e entrarei em contato em breve!
+        </p>
       )}
       {status === 'error' && (
-        <p className="error">Ops! Algo deu errado no envio. Por favor, tente novamente ou me contate diretamente.</p>
+        <p className="error-message">
+          Ops! Algo deu errado no envio. Por favor, tente novamente ou me contate diretamente.
+        </p>
       )}
     </form>
   );

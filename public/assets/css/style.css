@@ -33,8 +33,8 @@ body {
   width: 100%;
   height: 45px;
   border: 0;
-  background-color: #ffffff;
-  border: 1px solid #eeeeee;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
   color: #333333;
   border-radius: 4px;
   outline: none;
@@ -47,16 +47,6 @@ body {
 .form input::placeholder {
   font-size: 1rem;
   color: #ccc;
-}
-
-.success {
-  color: #4CAF50 !important;
-  font-weight: 300;
-}
-
-.error {
-  color: #F44336 !important;
-  font-weight: 300;
 }
 
 .input-valid {
@@ -93,6 +83,30 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.error-message {
+  color: #c0392b;
+  background-color: #fdedec;
+  border: 1px solid #fadbd8;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  text-align: center;
+  animation: shake 0.5s ease;
+}
+
+.success-message {
+  color: #3A86FF;
+  background-color: #f0f9f0;
+  border: 1px solid #e0f0e0;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
 }
 
 /* Responsivo: Mobile */
