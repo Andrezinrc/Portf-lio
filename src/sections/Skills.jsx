@@ -16,6 +16,7 @@ function Skills() {
       <div className="carousel-wrapper">
         <div className="carousel-track">
           <img src="/assets/images/c.png" alt="C logo" />
+          <img src="/assets/images/c-sharp.png" alt="C sharp logo" />
           <img src="/assets/images/js.png" alt="JavaScript logo" />
           <img src="/assets/images/ts.png" alt="TypeScript logo" />
           <img src="/assets/images/react.png" alt="React logo" />
@@ -27,6 +28,7 @@ function Skills() {
 
           {/* Duplicado para loop contínuo */}
           <img src="/assets/images/c.png" alt="C logo" />
+          <img src="/assets/images/c-sharp.png" alt="C sharp logo" />
           <img src="/assets/images/js.png" alt="JavaScript logo" />
           <img src="/assets/images/ts.png" alt="TypeScript logo" />
           <img src="/assets/images/react.png" alt="React logo" />

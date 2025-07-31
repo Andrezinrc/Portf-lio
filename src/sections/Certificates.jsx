@@ -14,32 +14,44 @@ function Certificates() {
       <div className="certificates-container">
         {/* Certificado 1 */}
         <div className="certificate-card">
-          <img src="/assets/images/freecodecamp.png" alt="FreeCodeCamp Logo" className="certificate-logo" loading="lazy" />
-          <h3>Legacy JavaScript Algorithms and Data Structures</h3>
-          <p>300 horas • Dezembro 2022</p>
-          <a
-            href="https://freecodecamp.org/certification/AndreDev/javascript-algorithms-and-data-structures"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="certificate-button"
-          >
-            Ver Certificado
-          </a>
+          <div className="certificate-image-wrapper">
+            <img
+              src="/assets/images/certificado1.jpeg"
+              alt="Certificado FreeCodeCamp"
+              className="certificate-logo"
+              loading="lazy"
+            />
+            <div className="certificate-overlay">
+              <a 
+                href="https://www.freecodecamp.org/certification/andredev/javascript-algorithms-and-data-structures" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <span>Ver certificado</span>
+              </a>
+            </div>
+          </div>
         </div>
 
         {/* Certificado 2 */}
         <div className="certificate-card">
-          <img src="/assets/images/freecodecamp.png" alt="FreeCodeCamp Logo" className="certificate-logo" loading="lazy" />
-          <h3>Back End Development and APIs</h3>
-          <p>300 horas • Setembro 2024</p>
-          <a
-            href="https://freecodecamp.org/certification/AndreDev/back-end-development-and-apis"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="certificate-button"
-          >
-            Ver Certificado
-          </a>
+          <div className="certificate-image-wrapper">
+            <img
+              src="/assets/images/certificado2.jpeg"
+              alt="Certificado FreeCodeCamp"
+              className="certificate-logo"
+              loading="lazy"
+            />
+            <div className="certificate-overlay">
+              <a 
+                href="https://www.freecodecamp.org/certification/andredev/back-end-development-and-apis" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <span>Ver certificado</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
