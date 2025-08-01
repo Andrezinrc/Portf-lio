@@ -65,7 +65,7 @@
   width: 100%;
   position: relative;
   padding: 120px 50px;
-  background-color: #ffffff;
+  background-color: #F8F9FA;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -120,7 +120,7 @@
   width: 100%;
   position: relative;
   padding: 120px 50px;
-  background-color: #ffffff;
+  background-color: #F8F9FA;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -206,7 +206,7 @@
 }
 
 .certificates-section {
-  background-color: #ffffff;
+  background-color: #F8F9FA;
   width: 100%;
   position: relative;
   padding: 120px 50px;
@@ -255,12 +255,12 @@
 .certificate-card {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
-  border: 1px solid #f0f0f0;
   max-width: 350px;
   width: 100%;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eaeaea;;
   text-align: left;
 }
 
@@ -329,7 +329,7 @@
   color: #222;
 }
 .projects-section {
-  background-color: #ffffff;
+  background-color: #F8F9FA;
   width: 100%;
   position: relative;
   padding: 120px 50px;
@@ -372,10 +372,11 @@
 }
 
 .project-card {
-  background-color: #ffffff;
-  border: 1px solid #f0f0f0;
+  position: relative;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eaeaea;
   border-radius: 8px;
   transition: all 0.3s;
   overflow: hidden;
@@ -398,6 +399,7 @@
 
 .project-info {
   padding: 20px;
+  border: 1px solid red;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -435,16 +437,16 @@
 }
 
 .project-button {
-  margin-top: 18px;
-  align-self: flex-start;
+  position: relative;
+  left: 88%;
   background-color: transparent;
-  color: #555;
+  color: #111111;
   border: 1px solid #ddd;
   text-decoration: none;
   padding: 8px 14px;
   border-radius: 4px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.3s ease;
 }
 
@@ -455,7 +457,7 @@
 }
 
 .contact-section {
-  background-color: #f9f9f9;
+  background-color: #F8F9FA;
   width: 100%;
   position: relative;
   padding: 120px 50px;

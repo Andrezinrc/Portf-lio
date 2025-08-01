@@ -33,7 +33,7 @@
 }
 
 .nav-link {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-weight: 500;
   font-size: 18px;
@@ -44,7 +44,7 @@
 }
 
 .nav-link:hover {
-  color: #00BFFF;
+  color: #fff;
 }
 
 /* Responsivo: Mobile */

@@ -34,8 +34,8 @@ function Projects() {
             </div>
         
             <div>
-              <a href="https://github.com/Andrezinrc/task-api" target="_blank" className="project-button" rel="noreferrer">
-                Ver no GitHub
+              <a href="https://github.com/Andrezinrc/task-api" target="_blank" className="project-button">
+                <i className="fab fa-github"></i>
               </a>
             </div>
           </div>
@@ -62,8 +62,8 @@ function Projects() {
             </div>
             
             <div>
-              <a href="https://github.com/Andrezinrc/url-shortener-api" target="_blank" className="project-button" rel="noreferrer">
-                Ver no GitHub
+              <a href="https://github.com/Andrezinrc/url-shortener-api" target="_blank" className="project-button">
+                <i className="fab fa-github"></i>
               </a>
             </div>
           </div>

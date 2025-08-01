@@ -46,6 +46,16 @@ function Form({ buttonText }) {
   
   return (
     <form className="form" onSubmit={handleSubmit}>
+      {status === 'success' && (
+        <p className="success-message">
+          E-mail enviado com sucesso. Agradeço pela confiança e entrarei em contato em breve!
+        </p>
+      )}
+      {status === 'error' && (
+        <p className="error-message">
+          Ops! Algo deu errado no envio. Por favor, tente novamente ou me contate diretamente.
+        </p>
+      )}
       <div>
         <input
           type="email"
@@ -66,16 +76,6 @@ function Form({ buttonText }) {
           {loading ? 'Enviando...' : buttonText}
         </button>
       </div>
-      {status === 'success' && (
-        <p className="success-message">
-          E-mail enviado com sucesso. Agradeço pela confiança e entrarei em contato em breve!
-        </p>
-      )}
-      {status === 'error' && (
-        <p className="error-message">
-          Ops! Algo deu errado no envio. Por favor, tente novamente ou me contate diretamente.
-        </p>
-      )}
     </form>
   );
 }

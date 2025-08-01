@@ -42,12 +42,17 @@
   font-weight: 300;
   transition: color 0.3s;
 }
-.footer-info a:hover {
-  color: #5D9DF5;
-}
+
 .footer-info small {
   color: #AAAAAA;
 }
+
+.footer-info a:hover,
+.footer-info small:hover {
+  color: #5D9DF5;
+}
+
+.footer-info h2,
 .footer-menu h2,
 .footer-social h2 {
   font-size: 1.1rem;

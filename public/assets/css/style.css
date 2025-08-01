@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #F8F9FA;
 }
 
 .form {
@@ -19,10 +19,9 @@ body {
   display: flex;
   border-radius: 8px;
   padding: 24px;
-  background-color: #ffffff;
-  border: 1px solid #eeeeee;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  background-color: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eaeaea;;
   flex-direction: column;
   border-radius: 8px;
   gap: 15px;
@@ -35,7 +34,6 @@ body {
   border: 0;
   background-color: #fafafa;
   border: 1px solid #e0e0e0;
-  color: #333333;
   border-radius: 4px;
   outline: none;
   transition: border 0.3s ease;
@@ -45,16 +43,15 @@ body {
 }
 
 .form input::placeholder {
-  font-size: 1rem;
-  color: #ccc;
+  color: #999;
 }
 
 .input-valid {
-  border-color: #A5D6A7 !important;
+  border-color: #22B528 !important;
 }
 
 .input-invalid {
-  border-color: #FFAB91 !important;
+  border-color: #c0392b !important;
 }
 
 .form button {
@@ -86,7 +83,7 @@ body {
 }
 
 .error-message {
-  color: #c0392b;
+  color: #c0392b !important;
   background-color: #fdedec;
   border: 1px solid #fadbd8;
   padding: 0.8rem 1rem;
@@ -98,7 +95,7 @@ body {
 }
 
 .success-message {
-  color: #3A86FF;
+  color: #666 !important;
   background-color: #f0f9f0;
   border: 1px solid #e0f0e0;
   padding: 0.8rem 1rem;
