@@ -21,11 +21,13 @@ function Menu() {
             <i className="fas fa-tools"></i>
           </a>
         </li>
+        {/*
         <li className="nav-list">
           <a href="#certificates" className="nav-link">
             <i className="fas fa-certificate"></i>
           </a>
         </li>
+        */}
         <li className="nav-list">
           <a href="#projects" className="nav-link">
             <i className="fas fa-code"></i>

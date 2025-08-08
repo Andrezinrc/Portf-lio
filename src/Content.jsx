@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
-import Certificates from './sections/Certificates';
+//import Certificates from './sections/Certificates';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 
@@ -19,8 +19,9 @@ function Content(){
       { /* Seção Habiliades */ }
       <Skills />
 
-      { /* Seção Certificados */ }
+      { /* Seção Certificados
       <Certificates />
+      */}
 
       { /* Seção Projetos */ }
       <Projects />
