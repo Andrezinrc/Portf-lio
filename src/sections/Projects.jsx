@@ -12,8 +12,44 @@ function Projects() {
       </p>
     
       <div className="project-wrapper">
+        {/* Projeto 1 - Clothing-store */}
+        <div className="project-card">
+          <img 
+            src="/assets/images/clothing-store.png" 
+            alt="Projeto Clothing Store" 
+            loading="lazy" 
+          />
+          <div className="project-info">
+            <div>
+              <h2 className="card-title">Clothing Store</h2>
+            </div>
+        
+            <div>
+              <p>
+                E-commerce de moda com catálogo de produtos, carrinho de compras e layout responsivo. 
+                Focado em experiência do usuário e design moderno.
+              </p>
+            </div>
+            
+            <div className="tech">
+              <span>React.js</span>
+              <span>Context API</span>
+              <span>CSS Modules</span>
+            </div>
+        
+            <div>
+              <a 
+                href="https://clothing-store-taupe.vercel.app" 
+                target="_blank" 
+                className="project-button"
+              >
+                <i className="fab fa-vercel"></i>
+              </a>
+            </div>
+          </div>
+        </div>
     
-        {/* Projeto 1 - Task API */}
+        {/* Projeto 2 - Task API */}
         <div className="project-card">
           <img src="/assets/images/task-api.jpeg" alt="Projeto Task API" loading="lazy" />
           <div className="project-info">
@@ -41,7 +77,7 @@ function Projects() {
           </div>
         </div>
         
-        {/* Projeto 2 - URL Shortener API */}
+        {/* Projeto 3 - URL Shortener API */}
         <div className="project-card">
           <img src="/assets/images/url-shortener-api.jpeg" alt="Projeto URL Shortener API" loading="lazy" />
           <div className="project-info">
