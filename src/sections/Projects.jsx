@@ -43,7 +43,7 @@ function Projects() {
                 target="_blank" 
                 className="project-button"
               >
-                <i className="fab fa-vercel"></i>
+                <i className="fas fa-globe"></i>
               </a>
             </div>
           </div>
