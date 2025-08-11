@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -42,10 +43,16 @@ function Footer() {
           </ul>
         </div>
       </div>
-
+      
       {/* Rodapé final */}
       <div className="footer-copy">
         <p>&copy; 2025 <span>Andrecode.</span></p>
+        <Link 
+            to="/politica-de-privacidade" 
+            className="privacy-link"
+          >
+            Política de Privacidade
+          </Link>
       </div>
     </footer>
   );

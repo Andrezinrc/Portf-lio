@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 
 function Form({ buttonText }) {
@@ -75,6 +76,13 @@ function Form({ buttonText }) {
         <button type="submit" disabled={loading || !isValid}>
           {loading ? 'Enviando...' : buttonText}
         </button>
+      </div>
+      
+      <div>
+        <p className="form-note">
+          Ao enviar, você concorda com nossa{' '}
+          <Link to="/politica-de-privacidade">Política de Privacidade</Link>.
+        </p>
       </div>
     </form>
   );

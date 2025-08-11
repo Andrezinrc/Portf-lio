@@ -1,21 +1,23 @@
-import React from 'react';
-import Header from './Header';
-import Content from './Content';
-import Footer from './Footer';
+import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Home from './pages/Home';
 
-
-export default function App() {
-
+function App() {
   return (
-    <div>
-      {/* Cabeçalho do Portfólio */}
-      <Header />
-
-      {/* Conteúdo Principal do Portfólio */}
-      <Content />
-
-      {/* Rodapé do Portfólio */}
-      <Footer />
-    </div>
+    <BrowserRouter basename="/">
+      <Routes>
+        {/* Rota da página inicial */}
+        <Route path="/" element={<Home />} />
+        
+        {/* Rota da Política de Privacidade */}
+        <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
+        
+        {/* Rota de fallback para 404 */}
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
+
+export default App;
