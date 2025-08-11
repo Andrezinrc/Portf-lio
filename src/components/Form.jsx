@@ -81,7 +81,7 @@ function Form({ buttonText }) {
       <div>
         <p className="form-note">
           Ao enviar, você concorda com nossa{' '}
-          <Link to="/politica-de-privacidade">Política de Privacidade</Link>.
+          <Link className="privacy-link" to="/politica-de-privacidade">Política de Privacidade</Link>.
         </p>
       </div>
     </form>
