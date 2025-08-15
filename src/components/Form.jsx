@@ -77,13 +77,6 @@ function Form({ buttonText }) {
           {loading ? 'Enviando...' : buttonText}
         </button>
       </div>
-      
-      <div>
-        <p className="form-note">
-          Ao enviar, você concorda com nossa{' '}
-          <Link className="privacy-link" to="/politica-de-privacidade">Política de Privacidade</Link>.
-        </p>
-      </div>
     </form>
   );
 }
