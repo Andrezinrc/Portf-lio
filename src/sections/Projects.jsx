@@ -48,8 +48,47 @@ function Projects() {
             </div>
           </div>
         </div>
+        
+        { /* Projeto 2 - Barber System */ }
+        <div className="project-card">
+          <img 
+            src="/assets/images/barber.png" 
+            alt="Sistema de Agendamento para Barbearia" 
+            loading="lazy"
+          />
+          <div className="project-info">
+            <div>
+              <h2 className="card-title">Barber System</h2>
+            </div>
+        
+            <div>
+              <p>
+                Sistema completo para barbearias com agendamento online, controle de serviços
+                e gestão financeira. Integração em tempo real com Firebase.
+              </p>
+            </div>
+            
+            <div className="tech">
+              <span>React.js</span>
+              <span>Firebase</span>
+              <span>CSS Flexbox</span>
+              <span>CRUD</span>
+            </div>
+        
+            <div className="project-links">
+              <a 
+                href="https://agenda-barber-dev.vercel.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="project-button demo"
+              >
+                <i className="fas fa-globe"></i>
+              </a>
+            </div>
+          </div>
+        </div>
     
-        {/* Projeto 2 - Task API */}
+        {/* Projeto 3 - Task API */}
         <div className="project-card">
           <img src="/assets/images/task-api.jpeg" alt="Projeto Task API" loading="lazy" />
           <div className="project-info">
@@ -77,7 +116,7 @@ function Projects() {
           </div>
         </div>
         
-        {/* Projeto 3 - URL Shortener API */}
+        {/* Projeto 4 - URL Shortener API */}
         <div className="project-card">
           <img src="/assets/images/url-shortener-api.jpeg" alt="Projeto URL Shortener API" loading="lazy" />
           <div className="project-info">
