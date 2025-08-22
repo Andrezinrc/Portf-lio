@@ -58,13 +58,12 @@ function Projects() {
           />
           <div className="project-info">
             <div>
-              <h2 className="card-title">Barber System</h2>
+              <h2 className="card-title">dreeagenda</h2>
             </div>
         
             <div>
               <p>
-                Sistema completo para barbearias com agendamento online, controle de serviços
-                e gestão financeira. Integração em tempo real com Firebase.
+                Sistema completo para barbearias com agendamento online e controle de serviços.
               </p>
             </div>
             
@@ -77,7 +76,7 @@ function Projects() {
         
             <div className="project-links">
               <a 
-                href="https://agenda-barber-dev.vercel.app" 
+                href="https://dreeagenda.vercel.app" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="project-button demo"
